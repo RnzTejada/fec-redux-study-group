@@ -1,21 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Logo from "./reduxLogo";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Logo className="App-logo" />
+        <p>Los Rezagados !</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://react-redux.js.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Redux study group
         </a>
       </header>
     </div>
